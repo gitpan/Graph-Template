@@ -1,5 +1,8 @@
 Revision history for Perl module Graph::Template
 
+0.03 Wed Mar 17 16:00:00 2004
+        - Parameters are now case-insensitive
+
 0.02 Fri Jan 30 16:00:00 2004
         - Added entity including capability
 
