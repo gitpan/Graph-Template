@@ -1,5 +1,8 @@
 Revision history for Perl module Graph::Template
 
+0.04 Wed Mar 17 16:00:00 2004
+        - Fixed bug introduced in 0.03 (Loops were not case-insensitive)
+
 0.03 Wed Mar 17 16:00:00 2004
         - Parameters are now case-insensitive
 
