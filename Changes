@@ -1,5 +1,8 @@
 Revision history for Perl module Graph::Template
 
+0.05 Thu Apr 08 07:30:00 2004
+        - Fixed bug regarding empty arrays as loop variables
+
 0.04 Wed Mar 17 16:00:00 2004
         - Fixed bug introduced in 0.03 (Loops were not case-insensitive)
 
