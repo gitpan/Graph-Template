@@ -17,6 +17,7 @@ lib/Graph/Template/Container/Graph.pm
 lib/Graph/Template/Container/Scope.pm
 lib/Graph/Template/Element/DataPoint.pm
 lib/Graph/Template/Element/Title.pm
+lib/Graph/Template/Element/Var.pm
 lib/Graph/Template/Element/XLabel.pm
 lib/Graph/Template/Element/YLabel.pm
 t/001_load.t

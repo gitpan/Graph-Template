@@ -6,10 +6,11 @@ BEGIN {
     use Graph::Template::Base;
     use vars qw ($VERSION @ISA);
 
-    $VERSION  = 0.01;
+    $VERSION  = 0.02;
     @ISA      = qw (Graph::Template::Base);
 }
 
+use File::Basename;
 use IO::File;
 use XML::Parser;
 
@@ -76,8 +77,11 @@ sub parse_xml
     my $self = shift;
     my ($filename) = @_;
 
+    my ($fname, $dirname) = fileparse($filename);
+
     my @stack;
     my $parser = XML::Parser->new(
+        Base => $dirname,
         Handlers => {
             Start => sub {
                 shift;

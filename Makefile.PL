@@ -4,10 +4,13 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME         => 'Graph::Template',
     VERSION_FROM => 'lib/Graph/Template.pm', # finds $VERSION
-    AUTHOR       => 'Christopher Baker (ignatz@ignatzmouse.com)',
+    AUTHOR       => 'Rob Kinyon (rkinyon@columbus.rr.com)',
     ABSTRACT     => 'Graph::Template',
     PREREQ_PM    => {
                      'Test::Simple' => 0.44,
+                     'IO::File' => 0.01,
+                     'File::Basename' => 0.01,
                      'GD::Graph' => 0.01,
+                     'XML::Parser' => 0.01,
                     },
 );
